@@ -1,0 +1,104 @@
+{
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 300,
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "extensions.ignoreRecommendations": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "autoFix": "explicit"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[php]": {
+    "editor.formatOnSave": true
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.colorDecorators": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerf Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": 300,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "files.exclude": {
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false,
+    "**/Thumbs.db": false
+  },
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "remote.autoForwardPortsSource": "hybrid",
+  "templateGenerator.openFilesByFolderTemplate": true,
+  "git.openRepositoryInParentFolders": "never",
+  "window.menuBarVisibility": "compact"
+}
